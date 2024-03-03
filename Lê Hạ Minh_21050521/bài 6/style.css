@@ -1,0 +1,28 @@
+.container {
+    background-image: url(./img/universe.webp);
+    background-size: cover;
+    padding: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .item {
+    text-align: center;
+}
+
+.container .item i {
+    font-size: 60px;
+    color: red;
+}
+
+.container .item p#quantity {
+    font-size: 70px;
+    color: white;
+}
+
+.container .item p.content {
+    color: yellow;
+    font-size: 40px;
+}

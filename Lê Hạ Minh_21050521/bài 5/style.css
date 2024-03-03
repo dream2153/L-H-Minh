@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    padding: 200px;
+    background-image: url(https://phuclong.com.vn/uploads/category/c121fda571b924-coffeebanner.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container p {
+    color: white;
+    font-size: 30px;
+}
+
+.container button {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding: 25px 15px;
+    background-color: red;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.container h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.container h1 #name {
+    color: rgb(41, 41, 186);
+}
+
+.container #details {
+    font-size: 30px;
+}
+
+.container .buttons{
+    width: 50%;
+    margin: 100px auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .buttons button {
+    cursor: pointer;
+
+    padding: 60px 10px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.container .buttons button #leftIcon {
+    color: rgb(11, 11, 179);
+}
+
+.container .buttons button #rightIcon {
+    color: pink;
+}
