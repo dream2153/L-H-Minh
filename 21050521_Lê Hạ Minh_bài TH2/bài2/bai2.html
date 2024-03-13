@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Bài 2</title>
+<script> function displayConfirmation() 
+    { const name = document.getElementById("border-left").value;
+        const  mathe = document.getElementById("border-right").value;
+        const so_dt = document.getElementById("border-left").value;
+        const email= document.getElementById("border-right").value;
+        const customer = document.getElementById("border-left").value;
+        const orderID = document.getElementById("border-right").value;
+        const chitiet= document.getElementById("border-center").value;
+    window.confirm("Họ và tên: " + name + "\nMã thẻ:" + mathe + "\nSố điện thoại: " + so_dt + "\nE-mail: " + email + "\nLoại khách hàng: " + customer + "\nMã hóa đơn: " + orderID + "\nNội dung góp ý: \n" + chitiet )
+        alert(confirmation);
+    } 
+</script>
+</head>
+<body >
+    <h2 class="h2"> ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h2>
+    <p class="text">
+        Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu
+    </p>
+    <p class="text">
+        Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i class="i">(nếu có)</i>.
+    </p>
+<div class="border">
+    <input type="text" id="border-left" placeholder=" Họ và tên" >
+    <input type="text" id="border-right" placeholder=" Mã thẻ" >
+    <input type="text" id="border-left" placeholder=" Số điện thoại" >
+    <input type="text" id="border-right" placeholder=" E-mail" >
+    <input type="text" id="border-left" placeholder=" Chọn loại khách hàng" >
+    <input type="text" id="border-right" placeholder=" Mã hóa đơn" >
+    <input type="text" id="border-center" placeholder=" Nhập chi tiết mô tả">
+    <button id="border-left1" type="button" onclick="displayConfirmation()"> 
+        GỬI GỢI Ý  <i class="fa-brands fa-facebook-messenger"></i>
+    </button>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-info {
+        width: 50%;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+    .contact-form {
+        width: 50%;
+        padding: 20px;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .contact-form button {
+        background-color: #15fd00c3;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <h1>Liên hệ</h1>
+    <hr color="red" />
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Thông tin</h3>
+            <p>📍 Kp. 6, P. Linh Trung, Tp. Thủ Đức, TP. HCM</p>
+            <p>✉️ Email: info@uit.edu.vn</p>
+            <p>📞 Điện thoại: +84 28 3725 2002</p>
+        </div>
+
+        <div class="contact-form">
+            <h3><font color="purple">Hãy liên lạc với chúng tôi bất cứ khi nào!!!</font></h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Họ và tên" required>
+                <input type="email" name="email" placeholder="Địa chỉ email" required>
+                <input type="text" name="subject" placeholder="Tiêu đề của bài viết" required>
+                <textarea name="message" rows="4" placeholder="Nội dung cần gửi" required></textarea>
+                <button type="submit">GỬI TIN NHẮN ☑️</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
